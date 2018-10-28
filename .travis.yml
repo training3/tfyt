@@ -6,6 +6,7 @@ php:
 
 before_script:
   - cat /etc/issue
+  - yum install -y vim
   - composer install --no-interaction
 
 script:
